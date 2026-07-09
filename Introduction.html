@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文化简介</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <style>
+        body .shell-main-nav ul .nav-box {
+            left: 240px;
+        }
+
+        body .shell-main {
+            margin-bottom: 0;
+        }
+
+        body .shell-main-nav {
+            margin-bottom: 0;
+        }
+
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-image: linear-gradient(to bottom, #8EBFF6, #B0D2F9);
+            height: 700px;
+        }
+
+            header img {
+                width: 500px;
+                height: 600px;
+                position: relative;
+            }
+
+            header h2 {
+                font: 100 60px '';
+                margin-bottom: 20px;
+                font-family: font;
+                letter-spacing: 5px;
+                border-bottom: 2px solid rgb(134, 134, 118);
+                color: #ffffff;
+            }
+
+            header p {
+                font: 100 30px '';
+                letter-spacing: 5px;
+            }
+
+        .h-b {
+            display: flex;
+            justify-content: space-evenly;
+            width: 90%;
+        }
+
+            .h-b p {
+                color: #fff;
+                margin-bottom: 10px;
+            }
+
+        .h-b-l,
+        .h-b-r {
+            width: 20%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* ------------------------------------------------------------------ */
+        footer {
+            max-width: 1430px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            border: 1px rgba(0, 0, 0, 0.187) solid;
+            margin: 20px 0;
+        }
+
+        .left {
+            width: 70%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .left p {
+                text-align: left;
+                letter-spacing: 2px;
+                margin-top: 30px;
+                font: 600 25px '';
+                color: rgb(147, 145, 142);
+            }
+
+        .top {
+            margin: 30px 0;
+        }
+
+            .top table {
+                margin: 30px 0;
+                width: 100%;
+                border-collapse: collapse;
+                border: rgba(0, 0, 0, 0.216);
+            }
+
+                .top table td {
+                    padding: 3px 10px;
+                }
+
+                .top table th {
+                    background-color: rgb(248, 248, 248);
+                }
+
+        .left h2,
+        .right h2 {
+            font-size: 30px;
+            position: relative;
+            width: 100%;
+            /* height: 30px; */
+        }
+
+            .left h2::after,
+            .right h2::after {
+                content: '';
+                display: block;
+                position: absolute;
+                left: -20px;
+                background-color: rgb(100, 160, 240);
+                width: 15px;
+                height: 100%;
+                top: 0;
+            }
+
+            .right h2::after {
+                left: 0;
+            }
+
+        .right h2 {
+            padding: 0 20px;
+            font-size: 20px;
+        }
+
+        .left h2::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 80%;
+            height: 2px;
+            right: 0;
+            top: 50%;
+            transform: translate(0, -50%);
+            background-color: rgba(0, 0, 0, 0.223)
+        }
+
+        .left span {
+            font-size: 15px;
+        }
+
+        .imgs {
+            width: 100%;
+            display: flex;
+        }
+
+            .imgs img {
+                width: 25%;
+            }
+
+        .right {
+            width: 25%;
+            padding: 10px;
+        }
+
+            .right img {
+                width: 100%;
+                margin: 0 0;
+            }
+
+        .bottom {
+            position: sticky;
+            top: 20px;
+        }
+
+        .b {
+            width: 100%;
+            background-color: #fff;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            border: rgba(0, 0, 0, 0.216) 1px solid;
+        }
+
+        @media (max-width:1000px) {
+            .h-b-r, .h-b-l, .right {
+                display: none;
+            }
+
+            .content {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shell">
+        <div class="shell-main">
+            <div class="shell-main-nav">
+                <div class="logo">
+                    <span>中华优秀传统文化</span>
+                </div>
+                <ul>
+                    <li><a href="./Discussion.html">理论论述</a></li>
+                    <li><a href="./Appreciation.html">文化鉴赏</a></li>
+                    <li><a href="./Introduction.html">文化简介</a></li>
+                    <li><a href="./Smriti.html">文化传承</a></li>
+                    <li><a href="./Login.html">登录</a></li>
+                    <div class="nav-box"></div>
+                </ul>
+            </div>
+        </div>
+        <header>
+            <h2>中国优秀传统文化</h2>
+            <div class="h-b">
+                <div class="h-b-l">
+                    <div class="h-b-l-h">
+                        <p>综合性</p>
+                        <span>中国传统文化是一个综合性的文化体系，包含了众多不同领域和方面的内容。这种综合性的文化使得中国传统文化在多个层面上具有深厚的内涵和广泛的影响力。</span>
+                    </div>
+                    <div class="h-b-l-b">
+                        <p>崇尚和谐</p>
+                        <span>中国传统文化强调和谐的思想。和谐思想贯穿于中国传统文化的各个方面，如道德伦理、社会关系、艺术表达等，强调人际关系的和谐与社会稳定的重要性。</span>
+                    </div>
+                </div>
+                <img src="./image/网站设计.png" alt="">
+                <div class="h-b-r">
+                    <div class="h-b-r-h">
+                        <p>尊重和包容性</p>
+                        <span>中国传统文化鼓励尊重他人和原则，尊重长辈、尊重传统等价值观念深植于中国社会。此外中国传统文化还以包容性为特点，接纳不同地域、民族、宗教和文化的多样性，形成了独特的文化合璧。</span>
+                    </div>
+                    <div class="h-b-r-b">
+                        <p>儒家思想</p>
+                        <span>儒家思想是中国传统文化的核心，崇尚仁、义、礼、智、信等价值观念，对社会伦理和个人行为准则具有深远影响，对中国社会和个体的发展产生了积极的引导作用。</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <footer>
+            <div class="content">
+                <div class="left">
+                    <div class="top">
+                        <h2>简介：</h2>
+                        <span>
+                            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国传统文化极其丰富多样，包括文学、历史、哲学、宗教、艺术、民俗等各个方面。<br />
+                            中国历史悠久且悠久的历史中凝聚着许多文化瑰宝。从夏朝到现代，中华文化在这漫长的历史长河中从齐家文化、周礼文化、儒家文化、道家文化和佛道两化融合的文化发展中走向了世界。<br />
+                            在哲学方面，中国的传统思想有着强烈的人文主义色彩，倡导人与自然和谐共生，人际关系和谐，追求道德美德。中国传统哲学强调道义观念，注重个人的修养和社会秩序，对人的行为和接触至关重要。
+                        </span>
+                    </div>
+                    <div class="top">
+                        <h2>文化含义：</h2>
+                        <br><span>文化本身是一个比较大的概念。笼统地说，文化是一种社会现象，是人们长期创造形成的产物。同时又是一种历史现象，是社会历史的积淀物。广义的文化是人类创造出来的所有物质和精神财富的总和。其中既包括世界观，人生观，价值观等具有意识形态性质的部分，又包括自然科学和技术，语言和文字等非意识形态的部分。</span><br>
+                        <br><span>确切地说，文化是指一个国家或民族的历史、地理、风土人情、传统习俗、生活方式、文学艺术、行为规范、思维方式、价值观念等。根据英国人类学家爱德华·泰勒的定义，文化是“包括知识、信仰、艺术、法律、道德、风俗以及作为一个社会成员所获得的能力与习惯的复杂整体”。其核心是作为精神产品的各种知识，其本质是传播。文化是人类社会特有的现象。文化是由人所创造，为人所特有的。有了人类社会才有文化，文化是人类社会实践的产物。在中国人民长期的社会实践中， 形成以儒家、佛家、道家三家之学为支柱的中华传统文化。</span><br>
+                    </div>
+                    <div class="top">
+                        <h2>主要种类：</h2>
+                        <span>
+                            <br>
+                            中华传统文化以儒家、佛家、道家三家之学为支柱, 包括思想、文字、语言，之后是六艺，也就是：礼、乐、射、御、书、数，再后是生活富足之后衍生出来的书法、音乐、武术、曲艺、棋类、节日、民俗等。传统文化是我们生活中息息相关的，融入我们生活的，我们享受它而不自知的东西。如，佛家的“烦恼”、“差别”、“平等”、“世界”等。<br>
+                            <br>
+                            中华传统文化的双重属性反映了传统文化之间（如：儒家/道家之间；儒家/法家之间、儒家/佛家之间）存在对立与统一的辩证关系。他们之间相渗透，形成古文、古诗、词语、乐曲、赋、民族音乐、民族戏剧、曲艺、国画、书法、对联、灯谜、射覆、酒令、歇后语文化形式等。<br>
+                            <br> 在民俗方面，则以传统节日的形式体现出来。这些传统节日包括（均按农历）：正月初一春节（农历新年）、正月十五元宵节、四月五日清明节、清明节前后的“寒食节”、五月五日“端午节”、七月七日七夕节、八月十五中秋节、腊月的“腊八节”、腊月三十除夕等。包括传统历法在内的中国古代自然科学也是中华传统文化的组成部分。<br>
+
+                            <br> 至如今，古今中外的学者们尚不能得出定论，除了多维视野的原因外，还有语言学角度的客观歧义。广义上讲，文化是人类精神生活与物质生活的总和。<br>
+                            <br />首先，从时间角度上讲，有原始文化，古代文化，近代文化，现代文化。<br />
+                            <br> 其次，从空间角度讲，有东方文化，西方文化，海洋文化，大陆文化。<br>
+                            <br> 其三，从社会层面上讲，有贵族文化，平民文化，官方文化，民间文化，主流文化，边缘文化（姜义华先生分之为规范性文化，非规范性文化，半规范性文化。这种分法比较新颖，所以着重介绍一下。所谓的规范性文化，姜先生认为是以儒家经典为经，以历代官修史志为纬，在长期流迁演化中广泛吸收了佛，道，法，阴阳，纵横，玄，外来文化等诸家学说而形成的经史文化，是中国小农社会的具有最高权威的规范性文化。与此相应的，则是普遍存在于一般民众中的生产方式，生活方式，人与人的种种关系，风俗，习惯，信仰，追求，日常心理，潜在意识及形形色色的成文或不成文制度中的非规范性文化。除去这两种文化之外，还有介于两者之间的半规范性文化，指雅俗程度不一的大量文学艺术作品，对经史文化呈半游离状态的各种文化教育，宗教娱乐活动，比如《水浒传》《三国演义》《隋唐演义》《西游记》等俗文化代表作。当然了，我觉得姜先生的分法似乎只针对中国传统文化才有效）。<br>
+                            <br> 其四，从社会功用上，分为名号文化、礼仪文化，制度文化，服饰文化，校园文化，企业文化。<br>
+                            <br> 其五，从文化的内在逻辑层次上，又可分为物态文化，心态文化，行为文化，制度文化四个层次。<br>
+                            <br />其六，从经济形态方面，　又有牧猎文化，渔盐文化，农业文化，工业文化，商业文化之分。还有人在其中搞着色，黄色文化，蓝色文化什么的。<br />
+                        </span>
+
+                    </div>
+                    <div class="top">
+                        <h2>文化特点：</h2>
+                        <span>
+                            <br />
+                            1.世代相传，中国的传统文化在某些短暂的历史时期内有所中断，在不同的历史时期或多或少的有所改变，但是大体上没有中断过，总的来说变化不大。<br>
+                            <br>
+                            2.民族特色，中国的传统文化是中国特有的，与世界上其他民族文化不同。其显著特点是：儒、佛、道三家民族文化，共同支撑，又相互融合。
+                            <br />
+                            <br />
+                            3.历史悠久。如中国传统文化的儒家文化有五千年的历史。<br>
+                            <br />
+                            4.博大精深，“博大”是说中国传统文化的广度—丰富多彩，“精深”是说中国传统文化的深度—高深莫测。<br />
+
+                        </span>
+
+                    </div>
+                    <div class="top">
+                        <h2>表现形式：</h2>
+                        <span>
+                            <br>
+                            <p> 理论：</p>
+                            <br> 传统纵览，农业文化，诸子百家，皇宫官府。
+                            <br>
+                            <br>
+                            <p> 技艺：</p>
+                            <br> 琴棋书画。
+                            <br>
+                            <br>
+                            <p> 传统：</p>
+                            <br> 十二生肖，传统文化，传统节日，中国戏剧，中国建筑，汉字汉语，传统中医，宗教哲学。
+                            <br>
+                            <br>
+                            <p> 民俗：</p>
+                            <br> 民间工艺，中华武术，地域文化，民风民俗，衣冠服饰。
+                            <br>
+
+                        </span>
+                    </div>
+                    <div class="top">
+                        <h2>保护措施：</h2>
+                        <span>
+                            <br>
+                            <p>（一）区别对待中国传统文化优劣，有利于社会前进的脚步。</p>
+                            <br> 优：民本思想，商周时代有“民惟邦本，本固邦宁”的说法；荀子说：“水则载舟，水则覆舟” 的精神境界；孟子：“我善养吾浩然之气”；杜甫“会当临绝顶，一览众山小”，还有“位卑不肯忘忧国”、君子之交淡如水，小人之交甘若醴、“先天下之忧而忧，后 天下之乐而乐”、“人生自古谁无死，留取丹心照汗青”等
+                            <br>
+                            <br> 劣：推崇守旧，“天可变，地可变，祖宗之法不可变” 。“两耳不闻窗外事，一心只读圣贤书”的迂腐、官僚贵族欺压人民、抑制百姓通过商业或其它途径谋求更多的物质利益。压制个性，压制自由思想，阻碍发展等
+                            <br>
+                            <br>
+                            <p>（二）以时代的角度，以比较的观点和方法看问题。</p>
+                            <br> “独在他乡为异客，每逢佳节倍思亲”、“慈母手中线，游子身上衣”，崇高天伦。 “天行健，君子自强不息”，不屈不挠的精神。“仁者爱人”高尚道德。马援马革裹尸，霍去病“匈奴未破，何以家为”，曹操“对酒当歌，人生几何”，王昌龄“秦时明月汉时关”， 功业抱负。“感时花溅泪，恨别鸟惊心”、“人闲桂花落，月静春山空”，天人共鸣等都是西方文化望尘莫及的。而中国传统文化的这些长处，必将成为世界文化的极其珍贵部分。
+                            <br>
+                            <br> 中国传统文化是在漫长的古代历史中形成的，是以封建社会文明为其背景。而西方文化，严格地说，是在文艺复兴之前才逐渐形成，是以资本主义文明为背景的。一个是封建色彩浓厚的文明，一个是资本主义色彩浓厚的文明，这就决定了中国传统文化不可避免地存在落后性，在许多方面存在着薄弱之处，但也不能一味否决，而在于能否取其精华。
+                            <br>
+                            <br>
+                            <p>（三）继承、借鉴与创新，并主动融入世界文化，是中国今后文化发展必由之路。</p>
+                            <br> 文化的建设，必须坚持继承、吸收、创新。
+                            <br />
+                            <br> 主要是有价值的东西，反映事物本质和规律，一些高尚品质。但反对无限拔高。中国传统文化是在特定时期形成的，必定有其时代局限性，任何夸大其辞，都是错误的。
+                            <br />
+                            <br> 这些年来，有些人看到周易、论语、禅宗等思想成果的价值，这本是一件好事。但盲目崇拜，极尽溢美之词，那便走上了歧路了。甚至有人在看到西方文明碰到一些挫折后，便反过来大力宣扬：西方文明已经破产了，儒家文明重新复兴是大势所趋。中华文明是要复兴，但并非要复兴儒家文化，而是要建立科学、民主、崇高人的尊严和价值的新中华文化。
+                            <br>
+                            <br> 整个世界文化角度来学习，世界各民族的文化互有长短，应该互相学习，才能共同进步。
+                            <br>
+                            <br> 对于个人而言，我们需要做到：
+                            <br />
+                            <br> 一、有一定的文化积累。
+                            <br />
+                            <br> 二、明确方向。即与社会发展趋势相一致，与以人为本、以民为本的价值观相一致。
+                            <br />
+                            <br> 三、要有宽松环境。要允许磨擦事物存在、发展，不能视新事物为洪水猛兽，要鼓励不同思想文化自由交锋。
+                            <br />
+                            <br />四、勇气和意志。需要整个民族的勇气和意志。旧的文化是过去社会前进的动力，新的社会也需要新的文化持之不懈地奋斗，并尊重事物发展规律，最终必然能取得胜利。
+                            <br />
+                            <br />中国传统文化的断代，已经360多年。由于我们在很长时间内不能以开阔的胸怀理解资本主义，对于资本主义文明一直保持一种强烈的警惕性，不能积极地学习西方文化那些先进成果，结果反过来损害了我民族传统文化现代化进程。 这十多年间，又出现国学热，涌现一些国学大师。但笔者发现，一些人只是就国学谈国学，已走入歧路。谈国学，应站在整个世界文化背景去研究。要研究国学，就必须了解现代社会发展趋势。这样，他研究国学，才能真正得出比较全面、成熟、中肯的结论。
+                            <br />
+                        </span>
+                    </div>
+                </div>
+                <div class="right">
+
+                    <div class="bottom">
+                        <h2>目录：</h2>
+                        <br>
+                        <span>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;⼀、简介
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;⼆、文化含义
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;三、主要种类
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;四、文化特点
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;五、表现形式
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;六、保护措施
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span>
+                        <img src="./image/网页设计布局.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+        <div class="shell-main-footer">
+            <span>团结-自强-求是-进步</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
